@@ -9,6 +9,7 @@ import Reminders from '../pages/Reminders'
 
 const MainRoutes = () => {
     return (
+        // api: https://google-keep-bz4w.onrender.com
         <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/archive' element={<Archive />} />
