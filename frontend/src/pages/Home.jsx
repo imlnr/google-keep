@@ -8,9 +8,9 @@ import MainRoutes from '../AllRoutes/MainRoutes';
 const Home = () => {
     return (
         <Box >
-            <Navbar />
+            {/* <Navbar /> */}
             {/* <MainRoutes/> */}
-            <MiniDrawer/>
+            {/* <MiniDrawer/> */}
         </Box>
     )
 }
