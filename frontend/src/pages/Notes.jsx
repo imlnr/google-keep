@@ -1,8 +1,9 @@
+import { Box } from '@mui/system'
 import React from 'react'
 
 const Notes = () => {
   return (
-    <div>Notes</div>
+    <Box width={"100%"} border={"1px solid"}>Notes</Box>
   )
 }
 
