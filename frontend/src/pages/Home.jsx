@@ -10,7 +10,7 @@ const Home = () => {
         <Box >
             {/* <Navbar /> */}
             {/* <MainRoutes/> */}
-            {/* <MiniDrawer/> */}
+            <MiniDrawer/>
         </Box>
     )
 }
