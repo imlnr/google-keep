@@ -11,8 +11,8 @@ const MainRoutes = () => {
     return (
         // api: https://google-keep-bz4w.onrender.com
         <Routes>
-            <Route path='/' element={<Home />} />
-            <Route path='/archive' element={<Archive />} />
+            {/* <Route path='/' element={<Home />} /> */}
+            <Route path='/' element={<Archive />} />
             <Route path='/bin' element={<Recycle />} />
             <Route path='/edit' element={<EditLabel />} />
             <Route path='/notes' element={<Notes />} />
